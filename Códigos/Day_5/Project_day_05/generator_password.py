@@ -14,6 +14,7 @@ password = ''
 my_password = []
 
 for ln in range(0, nr_letters):
+    #my_password.append(random.choice(letters)) da pra fazer assim também
     my_password += random.choice(letters)
 for ln in range(0, nr_numbers):
     my_password += random.choice(numbers)
@@ -22,3 +23,6 @@ for ln in range(0, nr_symbols):
 for ln in range(0, len(my_password)):
     password += random.choice(my_password)
 print(f'Here is your password: {password}')
+
+'''pode usar também o random.shuffle(password_list)
+para embaralhar sem precisar usar o ultimo for'''

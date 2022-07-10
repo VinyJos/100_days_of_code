@@ -41,10 +41,10 @@ if começar == 'sim' or começar == 's':
 
                 decisao = int(input('Escolha um número acima!\n'))
             
-            if decisao == 1:
-                print('continua...')
-            elif decisao == 2:
-                print('Fim de jogo')
+                if decisao == 1:
+                    print('continua...')
+                elif decisao == 2:
+                    print('Fim de jogo')
 
             #por enquanto esse é o fim do encadeamento do desembarque centro militar abandonado
             #--------------------------------------------------------------------------------------------------------------
