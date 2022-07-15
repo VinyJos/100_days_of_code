@@ -32,4 +32,3 @@ num2 = int(input("What's the second number ?: "))
 answer = list_calculator[what_operator](num1, num2) # combinação de entrada, lista e função
 
 print(f"{num1} {what_operator} {num2} = {answer}")
-       
